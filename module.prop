@@ -1,0 +1,6 @@
+id=loader_esp_ffmax
+name=Zygisk Loader ESP Free Fire Max
+version=v1.0
+versionCode=1
+author=Denis
+description=Zygisk Loader mandiri buatan Denis untuk menyuntikkan ESP Line FFMAX.
