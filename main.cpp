@@ -29,7 +29,7 @@ struct MonoArray { void* klass; void* monitor; void* bounds; int max_length; voi
 
 uintptr_t ambil_alamat_il2cpp() {
     uintptr_t addr = 0;
-    char line[512];
+    char line[512]; 
     FILE* fp = fopen("/proc/self/maps", "r");
     if (fp) {
         while (fgets(line, sizeof(line), fp)) {
